@@ -1,0 +1,15 @@
+print("Inserta el primer numero")
+a= int(input())
+print("Inserta el segundo numero")
+b= int (input())
+print("Inserta un signo")
+op=input()
+
+if op=='+':
+ print("el resultado es: ", a+b)
+elif op=='-':
+ print(a-b)
+elif op=='*':
+ print(a*b)
+elif op=='a/b':
+   print(a/b)
